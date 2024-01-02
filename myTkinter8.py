@@ -203,7 +203,7 @@ class Game:
 
         if not (flag or self.gamepanel.can_merge()):
             self.end=True
-            messagebox.showinfo('2048','Game Over!!!')
+            messagebox.showinfo('2048','Game Over!!! \n @imdevana!!!')
             print("Over")
 
         if self.gamepanel.moved:
